@@ -407,7 +407,7 @@ def main():
     )
 
     device_type = "cuda" if device.startswith("cuda") else device
-    max_steps = 2000
+    max_steps = 50000
     last_step = max_steps - 1
     log_file = "log.txt"
     log_dir = "checkpoints"
